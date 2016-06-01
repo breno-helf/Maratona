@@ -62,7 +62,7 @@ int main(){
     scanf("%d", &m);
     memset(seg,0,sizeof(seg));
     build(1,0,n-1);
-
+    
     for(int i=0;i<m;i++){
       int o;
       scanf("%d", &o);
