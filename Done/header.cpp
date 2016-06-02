@@ -14,7 +14,7 @@ typedef pair<ll,ll> pll;
 
 const int MAXN=
 const int INF=0x3f3f3f3f;
-const int MOD=1000000007;
+const ll  MOD=1000000007;
 
 
 
