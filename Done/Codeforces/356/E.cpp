@@ -25,7 +25,11 @@ bool g[MAXN][MAXN], marc[MAXN][MAXN];
 
 vector<pii> nxt;
 
-int low[MAXN][MAXN], d[MAXN][MAXN], sn, quand;
+int low[MAXN][MAXN], d[MAXN][MAXN], sn, quand, num, add[MAXN*MAXN];
+
+int sz[MAXN*MAXN], nsz[MAXN*MAXN];
+
+pii cmp[MAXN][MAXN];
 
 pii st[MAXN*MAXN];
 
@@ -56,46 +60,81 @@ void scc(int x, int y){
     int a = -1;
     int b = -1;
     int cur = 0;
+    nxt.clear();
     while( !(a==x && b==y) ){
       a = st[sn-1].first;
       b = st[sn-1].second;
       cur++;
       d[a][b] = INF;
       --sn;
+      nxt.pb(mp(a,b));
     }
-    resp = max(resp, cur);
+    int tam = nxt.size();
+    for(int i=0;i<tam;i++) cmp[nxt[i].first][nxt[i].second].first = cur, cmp[nxt[i].first][nxt[i].second].second = num;
+    nsz[num] = sz[num] = cur;
+    num++;
   }
 }
 
 int main(){
   scanf("%d%d", &n, &k);
   for(int i=1;i<=n;i++){
-    scanf("%s", ss);
+    getchar();
     for(int j=0;j<n;j++){
-      if(ss[j] == 'X') g[i][j+1] = 1;
+      char gg = getchar();
+      if(gg == 'X') g[i][j+1] = 1;
     }
   }
-  int des = n-k+1;
+
   resp = 0;
-  for(int a=1;a<=des;a++){
-    for(int b=1;b<=des;b++){
-      nxt.clear();
-      for(int i=1;i<=n;i++) for(int j=1;j<=n;j++) d[i][j] = low[i][j] = 0, marc[i][j] = 0;
-      quand = 0;
-      sn = 0;
-      for(int i = a; i < a+k; i++){
-	for(int j = b; j < b+k; j++){
-	  if(g[i][j]) g[i][j] = 0, nxt.pb(mp(i,j));
+  num = 1;
+  int t = 1;
+
+  for(int i=1; i<=n; i++) for(int j=1; j<=n; j++) if(!marc[i][j] && !g[i][j]) scc(i,j);
+
+  for(int a=1;a+k-1<=n;a++){
+    for(int i=0;i<num;i++) sz[i] = nsz[i];
+
+    for(int i=0;i<k;i++) for(int j=1;j<=k;j++) if(!g[a+i][j]) sz[cmp[a+i][j].second]--;
+
+    for(int b=1;b+k-1<=n;b++){
+      int atual = k*k;
+      for(int i=0;i<k;i++){
+	int ni, nj;
+	ni = a-1, nj = b + i;
+	if(ver(ni,nj)){
+	  if(!g[ni][nj]){
+	    if(add[cmp[ni][nj].second] != t) atual += sz[cmp[ni][nj].second], add[cmp[ni][nj].second] = t;
+	  }
+	}
+	ni = a + i, nj = b + k;
+	if(ver(ni,nj)){
+	  if(!g[ni][nj]){
+	    if(add[cmp[ni][nj].second] != t) atual += sz[cmp[ni][nj].second], add[cmp[ni][nj].second] = t;
+	  }
+	}
+	ni = a + k, nj = b + i;
+	if(ver(ni,nj)){
+	  if(!g[ni][nj]){
+	    if(add[cmp[ni][nj].second] != t) atual += sz[cmp[ni][nj].second], add[cmp[ni][nj].second] = t;
+	  }
+	}
+	ni = a + i, nj = b -1;
+	if(ver(ni,nj)){
+	  if(!g[ni][nj]){
+	    if(add[cmp[ni][nj].second] != t) atual += sz[cmp[ni][nj].second], add[cmp[ni][nj].second] = t;
+	  }
 	}
       }
-      for(int i=1; i<=n; i++) for(int j=1; j<=n; j++) if(!marc[i][j] && !g[i][j]) scc(i,j);
-      int tam = nxt.size();
-      for(int i=0;i<tam;i++) g[nxt[i].first][nxt[i].second] = 1;
+      resp = max(resp, atual);
+      for(int i = a; i<a+k;i++){
+	if(!g[i][b]) sz[cmp[i][b].second]++;
+	if((b+k)<=n && !g[i][b+k]) sz[cmp[i][b+k].second]--;
+      }
+      t++;
     }
   }
+  
   printf("%d\n", resp);
   return 0;
 }
-
-
-
