@@ -24,7 +24,7 @@ const int ATT=100;
 const int K=2000;
 
 string s, fix;
-double pp[N+10][ATT+10];
+double pp[N+10];
 int cor[N+10];
 
 int main(){
@@ -32,10 +32,10 @@ int main(){
   int now = 0;
   memset(cor,INF,sizeof(cor));
   memset(pp,-1,sizeof(pp));
-  mt19937 gen(19222);
+  mt19937 gen(79799);
   uniform_int_distribution<> go(0,1); 
   for(int i=0;i<N;i++) s += go(gen) + '0';
-  for(int i=0;i<26;i++){
+  for(int i=0;i<28;i++){
     cout << s << '\n';
     fflush(stdout);
     cin >> now;
@@ -46,8 +46,8 @@ int main(){
     }
     cor[now] = ((s[now]=='1') ? 0 : 1);
     for(int k=0;k<now;k++){
-      if(s[k]=='1') pp[k][i] = (cor[k]!=INF) ? ((double)cor[k]) : (1 - K/(now+1));
-      else pp[k][i] = (cor[k]!=INF) ? ((double)cor[k]) : (K/(now+1));
+      if(s[k]=='1') pp[k] += (cor[k]!=INF) ? ((double)cor[k]) : (1 - (K -1)/(now+1));
+      else pp[k] += (cor[k]!=INF) ? ((double)cor[k]) : ((K-1)/(now+1));
     }
     s.clear();
     for(int k=0;k<N;k++){
@@ -55,13 +55,13 @@ int main(){
     }
   }
   for(int i=0;i<N;i++){
-    for(int k=1;k<26;k++) pp[i][0] += pp[i][k];
-    if((pp[i][0]/26)>0 && cor[i]!=INF && i!=mx){
-      fix[i] = (pp[i][0]>0.5) ? '1' : '0';
+    //for(int k=1;k<25;k++) pp[i][0] += pp[i][k];
+    if((pp[i]/28)>0 && cor[i]!=INF && i!=mx){
+      fix[i] = (pp[i]>0.5) ? '1' : '0';
     }
   }
   for(int i=0;i<N;i++) fix[i] = ((cor[i]==INF || i==mx) ? fix[i] : (cor[i] + '0'));
-  for(int i=0;i<74;i++){
+  for(int i=0;i<72;i++){
     if(fix[mx] == '1') fix[mx] = '0';
     else fix[mx] = '1';
     cout << fix << '\n';
