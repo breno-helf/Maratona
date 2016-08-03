@@ -48,7 +48,7 @@ int main(){
       v[q].second = ++vx;
     }
     else{
-      int f = upper_bound(nxt,nxt+n, nxt[0]) - nxt - 1; 
+      int f = upper_bound(nxt,nxt+n, nxt[0]) - nxt - 1;
 
       if(nxt[f]+1 > vx){
 	puts("-1");
@@ -64,5 +64,3 @@ int main(){
   for(int i=1;i<=m;i++) printf("%d %d\n", v[i].first, v[i].second);
   return 0;
 }
-
-
