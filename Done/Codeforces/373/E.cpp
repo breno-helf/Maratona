@@ -35,10 +35,10 @@ struct matrix{
     matrix ret;
     for(int i = 0; i < 2; i++) {
       for(int j = 0; j < 2; j++) {
-	for(int k = 0; k < 2; k++)
-	  ret.a[i][j] += (a[i][k]*(q.a[k][j]))%MOD;
+        for(int k = 0; k < 2; k++)
+          ret.a[i][j] += (a[i][k]*(q.a[k][j]))%MOD;
 
-	ret.a[i][j] %= MOD;
+        ret.a[i][j] %= MOD;
       }
     } 
     return ret;
