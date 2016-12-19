@@ -34,7 +34,7 @@ int main() {
   sort(v, v + q, cmp);
   l = n;
   int i = 0;
-  for(int w = 0; w < 1000000; w++) {
+  for(int w = 0; w <= 1000000; w++) {
     if(v[i].t != w) {
       for(int j = 0; j < n; j++) {
         if(a[j] == 1)
