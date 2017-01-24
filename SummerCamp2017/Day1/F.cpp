@@ -11,33 +11,32 @@ using namespace std;
 typedef long long ll;
 typedef pair<int,int> pii;
 typedef pair<ll,ll> pll;
-typedef double long double
 
 const int MAXN=31234;
 const int INF=0x3f3f3f3f;
 const ll  MOD=1000000007;
-const double eps = 1e-12;
-const double Pi = acos(-1);
+const long double eps = 1e-12;
+const long double Pi = acos(-1);
 
-inline int cmp(double x, double y = 0, double tol = eps) {
+inline int cmp(long double x, long double y = 0, long double tol = eps) {
   return (x <= y + tol) ? (x + tol < y) ? -1 : 0 : 1;
 }
 
 struct point {
-  double x, y;
-  point(double x = 0, double y = 0): x(x), y(y) {}
+  long double x, y;
+  point(long double x = 0, long double y = 0): x(x), y(y) {}
   point operator +(point q) { return point(x + q.x, y + q.y); }
   point operator -(point q) { return point(x - q.x, y - q.y); }
-  point operator *(double t) { return point(x * t, y * t); }
-  point operator /(double t) { return point(x / t, y / t); }
-  double operator *(point q) {return x * q.x + y * q.y;}
+  point operator *(long double t) { return point(x * t, y * t); }
+  point operator /(long double t) { return point(x / t, y / t); }
+  long double operator *(point q) {return x * q.x + y * q.y;}
   //a*b = |a||b|cos(ang)
-  double operator %(point q) {return x * q.y - y * q.x;}
+  long double operator %(point q) {return x * q.y - y * q.x;}
   //a%b = |a||b|sin(ang)
-  double polar() { return ((y > -eps) ? atan2(y,x) : 2*Pi + atan2(y,x)); }
-  double mod() { return sqrt(x * x + y * y); }
-  double mod2() { return (x * x + y * y); }
-  point rotate(double t) {return point(x*cos(t)-y*sin(t), x*sin(t)+y*cos(t));}
+  long double polar() { return ((y > -eps) ? atan2(y,x) : 2*Pi + atan2(y,x)); }
+  long double mod() { return sqrt(x * x + y * y); }
+  long double mod2() { return (x * x + y * y); }
+  point rotate(long double t) {return point(x*cos(t)-y*sin(t), x*sin(t)+y*cos(t));}
   int cmp(point q) const {
     if (int t = ::cmp(x, q.x)) return t;
     return ::cmp(y, q.y);
@@ -51,8 +50,8 @@ struct point {
 point point::pivot;
 typedef vector<point> polygon;
 
-double abs(point p) { return hypot(p.x, p.y); }
-double arg(point p) { return atan2(p.y, p.x); }
+long double abs(point p) { return hypot(p.x, p.y); }
+long double arg(point p) { return atan2(p.y, p.x); }
 
 inline int ccw(point p, point q, point r) {
   return cmp((p - r) % (q - r));
@@ -64,7 +63,7 @@ point proj(point v, point u) {
 }
 
 int t;
-double lm, lg;
+long double lm, lg;
 
 point sh[4];
 
@@ -77,7 +76,7 @@ int main() {
     }
     
     if((sh[0] - sh[1])%(sh[1] - sh[2]) == 0) {
-      double dist = max( (sh[0] - sh[1]).mod(), max( (sh[1] - sh[2]).mod(), (sh[0] - sh[2]).mod()));
+      long double dist = max( (sh[0] - sh[1]).mod(), max( (sh[1] - sh[2]).mod(), (sh[0] - sh[2]).mod()));
       if(dist <= lm || dist <= 2*lg)
         puts("YES");
       else
@@ -87,7 +86,7 @@ int main() {
     int resp = 0;
     
     for(int i = 0; i < 3; i++) {
-      double dist;
+      long double dist;
       point a, b, c;
       if(!i) {
         a = sh[1];
@@ -102,24 +101,25 @@ int main() {
 
       dist = (a - b).mod();
       
-      if(dist >= 2*lg) {
+      if(dist <= 2*lg) {
         point d = a - b;
-        if(proj(a + c, a + d) <= lm) {
-          double pit = sqrt( (a - c).mod2() - proj(a + c, a + d).mod2() );
-          if(pit <= (a - b).mod())
+        if(proj(a + c, a + d).mod() <= lm) {
+          long double pit = sqrt( - (a - c).mod2() + proj(a + c, a + d).mod2() );
+          if(pit <= dist)
             resp = 1;
         }
       }
-      if(dist >= lm) {
+      if(dist <= lm) {
         point d = a - b;
         point pro = proj(a + c, a + d);
-        if() {
-
-          resp = 1;
-        }
-        
+        if(!((pro*a > 0 && pro*b < 0) || (pro*a < 0 && pro*b > 0))) {
+          if(pro.mod() <= lg) {
+            long double len = min((a - pro).mod(), (b -  pro).mod());
+            if((lm - dist) >= len)
+              resp = 1;
+          }
+        }        
       }
-
     }
     if(resp)
       puts("YES");
