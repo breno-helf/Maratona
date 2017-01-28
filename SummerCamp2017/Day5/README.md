@@ -1,0 +1,1 @@
+Contest is 2013-2014 Wide-Siberian Olympiad
