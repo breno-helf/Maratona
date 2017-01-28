@@ -1,0 +1,1 @@
+Contest is 2015-2016 Petrozavodsk Winter Training Camp, Makoto rng_58 Soejima Сontest 4 
