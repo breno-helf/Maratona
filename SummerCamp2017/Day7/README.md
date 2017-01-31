@@ -1,0 +1,1 @@
+Contest is 2012-2013 ACM-ICPC, NEERC, Southern Subregional Contest
