@@ -1,0 +1,1 @@
+Contest is 2010-2011 ACM-ICPC, NEERC, Southern Subregional Contest
