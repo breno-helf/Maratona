@@ -12,31 +12,38 @@ typedef long long ll;
 typedef pair<int,int> pii;
 typedef pair<ll,ll> pll;
 
-const int MAX = 1123;
+const int MAX = 112;
 const int INF = 0x3f3f3f3f;
 const ll  MOD = 1000000007;
-const double PI = acos(-1);
 
-int n, r, a[MAX];
-
-double A, ans;
-
+int a[MAX], n;
+int acc[MAX], z;
 int main () {
-    cin >> n >> r;
-    for (int i = 0; i < n; i++)
+    z = 0;
+    cin >> n;
+    for (int i = 0; i < n; i++) {
 	cin >> a[i];
-
-    sort(a, a + n);
-    A = PI*r*r;
-    ans = A;
-
-    for (int i = 1; i < n; i++) {
-	double d = a[i] - a[i - 1];
-	double alfa = 2*acos(d/(2*r));
-	ans += A;
-	if (d/2 < r)
-	    ans -= 2*(alfa*r*r/2 - r*r*sin(alfa)/2);
+	if (i > 0) acc[i] = acc[i - 1] + a[i];
+	else acc[i] = a[i];
+	if (a[i] == 0) z++;
     }
-    cout << fixed << setprecision(6) << ans << '\n';
-}
+    
+    if (z == n) {
+	puts ("NO");
+	return 0;
+    }
 
+    puts ("YES");
+
+    if (acc[n - 1] != 0) {
+	printf("1\n1 %d\n", n);	
+    }
+
+    else {
+	int end = n - 1;
+	while (a[end] == 0) end--;
+	
+	printf("2\n1 %d\n%d %d\n", end, end + 1, n);
+    }
+    return 0;
+}
