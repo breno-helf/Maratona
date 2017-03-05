@@ -1,5 +1,3 @@
-
-
 //If you are trying to hack me I wish you can get it, Good Luck :D
 #include <bits/stdc++.h>
 using namespace std;
