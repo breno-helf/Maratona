@@ -2,7 +2,7 @@
 #include <bits/stdc++.h>
 using namespace std;
 
-#define debug(args...) fprintf (stderr,args)
+#define debug(args...) //fprintf (stderr,args)
 #define pb push_back
 #define mp make_pair
 
@@ -10,48 +10,99 @@ typedef long long ll;
 typedef pair<int,int> pii;
 typedef pair<ll,ll> pll;
 
-const int MAX = 212345;
+const int MAX = 5123;
 const int INF = 0x3f3f3f3f;
 const ll  MOD = 1000000007;
 
-int n, m, k, mark[MAX];
-vector<int> adj[MAX];
-vector<int> path;
-void dfs (int u) {
-    mark[u] = 1;
-    path.pb(u);
-    for (int v : adj[u]) {
-	if (!mark[v]) {
-	    dfs(v);
-	    path.pb(u);
-	}
-    }
-}
+struct op {
+    string a, x, b;
+    op(string A = "", string X = "", string B = ""): a(A), x(X), b(B) {}
+};
+
+int n, m, pre[MAX][2];
+bool num[MAX];
+string s[MAX], r[MAX];
+map<string, bool> var;
+map<string, int> id;
+op calc[MAX];
+string mn, mx;
 
 int main () {
-    scanf("%d%d%d", &n, &m, &k);
-    
-    for (int i = 0; i < m; i++) {
-	int x, y;
-	scanf("%d%d", &x, &y);
-	adj[x].pb(y);
-	adj[y].pb(x);
-    }
-    
-    int walk = (2 * n + k - 1) / k;
-    dfs(1);
-    int sz = path.size();
-    
-    for (int i = 0; i < sz; i += walk) {
-	int num = (i + walk < sz) ? (walk) : (sz - i);
-	printf ("%d ", num);
-	for (int j = 0; j < num; j++) {
-	    printf("%d ", path[i + j]);
+    cin.sync_with_stdio(false);
+    cin.tie(0);
+    cout.tie(0);
+
+    int TROXA = 1;
+    var["?"] = true;
+    cin >> n >> m;
+    for (int i = 0; i < n; i++) {
+	string v;
+	cin >> s[i] >> v;
+	id[s[i]] = i;
+	cin >> v;
+	if (var.find(v) != var.end()) {
+	    string x, b;
+	    cin >> x >> b;
+	    calc[i] = op(v, x, b);
+	    num[i] = false;
+	    var[s[i]] = true;
+	} else {
+	    r[i] = v;
+	    var[s[i]] = true;
+	    num[i] = true;
 	}
-	printf("\n");
     }
-    for (int i = ((sz + walk - 1)/walk); i < k; i++)
-	printf("1 1\n");
+    mn = mx = "";
+    
+    for (int k = 0; k < m; k++) {
+	int resp0, resp1;
+	resp0 = resp1 = 0;
+	for (int i = 0; i < n; i++) {
+	    if (num[i]) {
+		if (r[i][k] == '1') {
+		    resp0++;
+		    resp1++;
+		    pre[i][0] = 1;
+		    pre[i][1] = 1;
+		} else {
+		    pre[i][0] = pre[i][1] = 0;
+		}
+	    } else {		
+		int a = (calc[i].a == "?") ? 0 : pre[id[calc[i].a]][0];
+		int b = (calc[i].b == "?") ? 0 : pre[id[calc[i].b]][0];
+
+		if (calc[i].x == "AND")
+		    pre[i][0] = a & b;
+		else if (calc[i].x == "OR")
+		    pre[i][0] = a | b;
+		else
+		    pre[i][0] = a ^ b;
+		if (pre[i][0]) resp0++;
+
+		a = (calc[i].a == "?") ? 1 : pre[id[calc[i].a]][1];
+		b = (calc[i].b == "?") ? 1 : pre[id[calc[i].b]][1];
+		if (calc[i].x == "AND")
+		    pre[i][1] = a & b;
+		else if (calc[i].x == "OR")
+		    pre[i][1] = a | b;
+		else
+		    pre[i][1] = a ^ b;
+		if (pre[i][1]) resp1++;			
+	    }
+	    debug("%d > %d %d\n", i, pre[i][0], pre[i][1]);
+	}
+	debug("\n-- %d %d\n", resp0, resp1);
+	if (resp1 > resp0) {
+	    mx += "1";
+	    mn += "0";
+	} else if (resp1 < resp0){
+	    mx += "0";
+	    mn += "1";
+	} else {
+	    mx += "0";
+	    mn += "0";
+	}
+    }
+    cout << mn << '\n' << mx << '\n';
     return 0;
 }
-
