@@ -1,0 +1,7 @@
+Para a matéria MAC0214 do segundo semestre de 2017 escolhi o grupo de extensão MaratonIME para trabalhar. Pretendo no semestre:
+
+     - Participar de ao menos 1 contest por semana (seja de 2h ou de 5h)
+     - Estudar novos tópicos para aumentar o escopo (Persistência em estrutura de dados, Fast Fourier Transform "FFT", dentre outros)
+     - Conseguir bons resultados em provas oficiais da ICPC.
+
+Para alcançar os objetivos acima citados, pretendo anotar todo meu treinamento em uma página no github (https://github.com/breno-helf/Maratona/blob/master/MAC0214/relatorio.md). Nessa página pretendo fazer uma espécie de "diário" ou "relatório", anotando os treinos, sejam eles contests, tempo de estudo individual em novos tópicos, upsolving ou simplesmente resolução de problemas. As anotações serão semanais, com um comentário sobre o desenvolvimento na semana ao fim dela. Espero que ao fim do semestre possa ver meu desenvolvimento!
