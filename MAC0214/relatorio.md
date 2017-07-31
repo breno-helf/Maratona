@@ -8,4 +8,9 @@
 	- Virtual Contest #423: 4 problemas resolvidos. [2h]
 
 - ### Comentários:
->Uma boa semana .... 
+>Uma boa semana ....
+
+
+####Observações:
+	Todos os problemas e contests aqui postados podem ser encontrados nesse mesmo repositório nas pastas dos respectivos juízes online.
+	Esse relatório foi feito para a matéria MAC0214 - Atividade extracurricular em cultura e extensão.
