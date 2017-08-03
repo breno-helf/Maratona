@@ -49,7 +49,7 @@ bool test1() {
 	}
     }
 
-    if (!A || color2 == color3) return false;
+    if (!A || color2 == color3 || color3 == color) return false;
 
     return true;
 }
@@ -87,7 +87,7 @@ bool test2() {
 	}
     }
 
-    if (!A || color2 == color3) return false;
+    if (!A || color2 == color3 || color3 == color) return false;
 
     return true;    
 }

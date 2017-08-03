@@ -18,14 +18,13 @@ ll a[MAX];
 
 int two[MAX], fiv[MAX];
 
-pii dp[MAX][MAX];
+int dp[MAX][MAX * 50];
 
 int main() {
-    for (int i = 0; i < MAX; i++)
-	for (int j = 0; j < MAX; j++)
-	    dp[i][j] = pii(-1, -1);
+    memset(dp, -INF, sizeof(dp));
     
     scanf("%d%d", &n, &k);
+    
     for (int i = 1; i <= n; i++) {
 	scanf("%lld", a + i);
 	ll num = a[i];
@@ -40,25 +39,19 @@ int main() {
 	}
     }
 
-    dp[0][0] = pii(0, 0);
-
+    dp[0][0] = 0;
+    int resp = 0;
     for (int i = 1; i <= n; i++) {
-	for (int j = 0; j <= k; j++) {
-	    pii op1 = dp[i - 1][j];
-	    pii op2 = pii(-INF, -INF);
-
-	    if(j > 0) op2 = dp[i - 1][j - 1];
-	    op2 = pii(op2.first + two[i], op2.second + fiv[i]);
-	    int v1 = min(op1.first, op1.second);
-	    int v2 = min(op2.first, op2.second);
-
-	    if (v1 > v2) dp[i][j] = op1;
-	    else dp[i][j] = op2;
+	for (int j = k - 1; j >= 0; j--) {
+	    for (int t = 0; t <= j * 30; t++) {
+		dp[j + 1][t + fiv[i]] = max(dp[j + 1][t + fiv[i]], dp[j][t] + two[i]);
+	    }
 	}
     }
+
+    for (int t = 0; t < 50 * MAX; t++) resp = max(resp, min(dp[k][t], t));
     
-    
-    printf("%d\n", max(0, min(dp[n][k].first, dp[n][k].second)));
+    printf("%d\n", resp);
     return 0;
 }
 
