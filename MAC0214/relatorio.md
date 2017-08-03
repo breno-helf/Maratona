@@ -1,12 +1,13 @@
 # Relatório de MAC0214 - Problemas, contests e comentários
 
-## **Total de horas atual:** **8h15min** 
+## **Total de horas atual:** **10h15min** 
 
-## Semana 1 (31/07 ~ 04/08) - __8h15min__
+## Semana 1 (31/07 ~ 04/08) - __10h15min__
 - Codeforces
 	- Contest #427: 3 problemas resolvidos em contest, 1 upsolve. [2h15min]
 	- Virtual Contest #423: 4 problemas resolvidos. [2h]
 	- Virtual Contest Wunder 2016: 3 problemas resolvidos [2h]
+	- Educational Codeforces Round 26: 4 problemas resolvidos [2h]
 - CSAcademy
 	- Round #40: 3 problemas resolvidos [2h]
 	
