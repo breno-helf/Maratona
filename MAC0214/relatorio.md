@@ -1,16 +1,18 @@
 # Relatório de MAC0214 - Problemas, contests e comentários
 
-## **Total de horas atual:** **10h45min** 
-
-## Semana 1 (31/07 ~ 04/08) - __10h45min__
+## **Total de horas atual:** **13h0min** 
+## **Total de problemas atual:** **22**
+## Semana 1 (31/07 ~ 04/08) - __13h0min__ __22 Problemas__
 - Codeforces
 	- Contest #427: 3 problemas resolvidos em contest, 1 upsolve. [2h15min]
 	- Virtual Contest #423: 4 problemas resolvidos. [2h]
 	- Virtual Contest Wunder 2016: 3 problemas resolvidos [2h]
 	- Educational Codeforces Round 26: 4 problemas resolvidos [2h30min]
+	- Virtual Contest #424: 4 problemas resolvidos. [2h]
 - CSAcademy
 	- Round #40: 3 problemas resolvidos [2h]
-	
+- Estudo Individual
+  	- Estudei Teorema de Kirchoff (https://en.wikipedia.org/wiki/Kirchhoff%27s_theorem) [15min] 
 - ### Comentários:
   Uma boa semana ....
 
