@@ -1,6 +1,6 @@
 # Relatório de MAC0214 - Problemas, contests e comentários
 
-## **Total de horas atual:** **17h0min** 
+## **Total de horas atual:** **23h30min** 
 ## **Total de problemas atual:** **28**
 ## Semana 1 (31/07 ~ 05/08) - __15h0min__ __25 Problemas__
 - Codeforces
@@ -19,9 +19,16 @@
   Todos os contests tinham problemas desafiadores, mas também tinham problemas fáceis. Consegui subir meu rating no
   CSAcademy.
 
-## Semana 2 (07/08 ~ 12/08) - __2h0min__ __3 Problemas__
+## Semana 2 (07/08 ~ 12/08) - __8h30min__ __7 Problemas__
 - Codeforces
 	- Virtual Contest #419: 3 problemas resolvidos [2h]
+- Contest em Time
+  	- Asia Regional Dalian 2016: 4 problemas resolvidos [5h]
+
+- Estudo individual
+  	- Estudei "Landau's Theorem on Tournament" (https://en.wikipedia.org/wiki/Tournament_(graph_theory)) [30min]
+- Preparação do Caderno:
+  	- Preparei parte do caderno que será usado em competições oficias [1h]
 - ### Comentários:
   Uma boa semana ....
 
