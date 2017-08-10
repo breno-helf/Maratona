@@ -22,6 +22,7 @@
 ## Semana 2 (07/08 ~ 12/08) - __8h30min__ __7 Problemas__
 - Codeforces
 	- Virtual Contest #419: 3 problemas resolvidos [2h]
+	- Virtual Contest #426: 3 problemas resolvidos [2h]
 - Contest em Time
   	- Asia Regional Dalian 2016: 4 problemas resolvidos [5h]
 
