@@ -1,7 +1,7 @@
 # Relatório de MAC0214 - Problemas, contests e comentários
 
-## **Total de horas atual:** **37h0min** 
-## **Total de problemas atual:** **50**
+## **Total de horas atual:** **37h30min** 
+## **Total de problemas atual:** **51**
 ## Semana 1 (31/07 ~ 05/08) - __15h0min__ __25 Problemas__
 - Codeforces
 	- Contest #427: 3 problemas resolvidos em contest, 1 upsolve. [2h15min]
@@ -19,7 +19,7 @@
   Todos os contests tinham problemas desafiadores, mas também tinham problemas fáceis. Consegui subir meu rating no
   CSAcademy.
 
-## Semana 2 (07/08 ~ 12/08) - __22h0min__ __25 Problemas__
+## Semana 2 (07/08 ~ 12/08) - __22h30min__ __26 Problemas__
 - Codeforces
 	- Virtual Contest #419: 3 problemas resolvidos [2h]
 	- Virtual Contest #426: 3 problemas resolvidos [2h]
@@ -29,6 +29,7 @@
 	- Pacific Northwest Regional 2016-2017: 8 problemas resolvidos[5h]
 - Upsolving
 	- Upsolving problema B (Dalian) [1h30min]
+	- Upsolving problema H (Dalian) [30min]
 - Estudo individual
   	- Estudei "Landau's Theorem on Tournament" (https://en.wikipedia.org/wiki/Tournament_(graph_theory)) [30min]
 - Preparação do Caderno:
