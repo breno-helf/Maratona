@@ -1,7 +1,8 @@
-# Relatório de MAC0214 - Problemas, contests e comentários
+	# Relatório de MAC0214 - Problemas, contests e comentários
 
 ## **Total de horas atual:** **37h30min** 
 ## **Total de problemas atual:** **51**
+
 ## Semana 1 (31/07 ~ 05/08) - __15h0min__ __25 Problemas__
 - Codeforces
 	- Contest #427: 3 problemas resolvidos em contest, 1 upsolve. [2h15min]
@@ -36,6 +37,12 @@
   	- Preparei parte do caderno que será usado em competições oficias [1h]
 - ### Comentários:
   Nessa semana acho que me desenvolvi bastante. O choque de fazer competições oficais me mostrou que não basta a habilidade, mas também a calma e o foco durante uma competição oficial onde se tem pressão. Pretendo trabalhar isso nas próximas semanas até dia 09/10, Sub Regional Brasileira.
+
+## Semana 3 (14/08 ~ 19/08) - __4h30min__ __6 Problemas__
+- CSAcademy
+	- Round #42: 3 problemas resolvidos em contest, 1 upsolve [2h30min]
+- Codeforces
+	- Virtual Contest #421: 2 problemas resolvidos [2h] 
 
 #### Observações:
 
