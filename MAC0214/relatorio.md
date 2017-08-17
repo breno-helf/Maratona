@@ -38,12 +38,15 @@
 - ### Comentários:
   Nessa semana acho que me desenvolvi bastante. O choque de fazer competições oficais me mostrou que não basta a habilidade, mas também a calma e o foco durante uma competição oficial onde se tem pressão. Pretendo trabalhar isso nas próximas semanas até dia 09/10, Sub Regional Brasileira.
 
-## Semana 3 (14/08 ~ 19/08) - __4h30min__ __6 Problemas__
+## Semana 3 (14/08 ~ 19/08) - __6h30min__ __10 Problemas__
 - CSAcademy
 	- Round #42: 3 problemas resolvidos em contest, 1 upsolve [2h30min]
 - Codeforces
 	- Virtual Contest #421: 2 problemas resolvidos [2h] 
+	- Virtual Contest #409: 4 problemas resolvidos [2h]
 
+- ### Comentários:
+  
 #### Observações:
 
   Todos os problemas e contests aqui postados podem ser encontrados nesse mesmo repositório nas pastas dos respectivos juízes online, ou no repositório [https://github.com/breno-helf/TAPA.EXE](https://github.com/breno-helf/TAPA.EXE) em 'contests', para os contests feitos em time.
