@@ -28,7 +28,7 @@ int main () {
     for (ll i = 0; i <= 100000; i++) {
 	if (S.find(D + C * i) != S.end()) {
 	    resp = D + C * i;
-	    printf("%lld %lld\n", i, (D + C * i - B) / A);
+	    //printf("%lld %lld\n", i, (D + C * i - B) / A);
 	    break;
 	}
 	    

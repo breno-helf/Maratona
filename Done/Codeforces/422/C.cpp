@@ -35,6 +35,8 @@ struct voucher {
 vector < voucher > v;
 
 vector < voucher > d[MAX];
+vector < int >   ans[MAX];
+set<int> M;
 
 int main () {
     cin >> n >> x;
@@ -48,8 +50,19 @@ int main () {
 
     for (int i = 0; i < n; i++) {
 	d[v[i].duration()].pb(v[i]);
+
+	M.insert(v[i].duration());
     }
     
+    for (auto e : M) {
+	int last = INF;	
+	int tam = d[e].size();
+	for (int j = tam - 1; j >= 0; j--) {
+	    last = min(last, d[e][j].c);
+	    ans[e].pb(last);
+	}
+	reverse(ans[e].begin(), ans[e].end());
+    }
     
     int resp = 2e9 + 1;
     
@@ -58,10 +71,11 @@ int main () {
 	int h = x - v[i].duration();
 	if (h < 0) continue;
 	int j = (int)(upper_bound(d[h].begin(), d[h].end(), C) - d[h].begin());
+
+	if (j >= (int)ans[h].size()) continue;
+
+	resp = min(resp, v[i].c + ans[h][j]);
 	
-	for (; j < (int)d[h].size(); j++) {
-	    resp = min(resp, v[i].c + d[h][j].c);
-	}
     }
 
     if (resp == 2e9 + 1) resp = -1;
