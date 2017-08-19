@@ -38,13 +38,17 @@
 - ### Comentários:
   Nessa semana acho que me desenvolvi bastante. O choque de fazer competições oficais me mostrou que não basta a habilidade, mas também a calma e o foco durante uma competição oficial onde se tem pressão. Pretendo trabalhar isso nas próximas semanas até dia 09/10, Sub Regional Brasileira.
 
-## Semana 3 (14/08 ~ 19/08) - __6h30min__ __10 Problemas__
+## Semana 3 (14/08 ~ 19/08) - __9h30min__ __16 Problemas__
 - CSAcademy
 	- Round #42: 3 problemas resolvidos em contest, 1 upsolve [2h30min]
 - Codeforces
 	- Virtual Contest #421: 2 problemas resolvidos [2h] 
 	- Virtual Contest #409: 4 problemas resolvidos [2h]
-
+	- Contest #429: 3 problemas resolvidos [2h]
+-Upsolving
+	- Upsolving problema L (Seletiva IME-USP) [30min]
+	- Upsolving problema E (Seletiva IME-USP) [15min]
+	- Upsolving problema A (Seletiva IME-USP) [15min]
 - ### Comentários:
   
 #### Observações:
