@@ -1,7 +1,7 @@
 	# Relatório de MAC0214 - Problemas, contests e comentários
 
-## **Total de horas atual:** **37h30min** 
-## **Total de problemas atual:** **51**
+## **Total de horas atual:** **47h0min** 
+## **Total de problemas atual:** **67**
 
 ## Semana 1 (31/07 ~ 05/08) - __15h0min__ __25 Problemas__
 - Codeforces
@@ -50,6 +50,7 @@
 	- Upsolving problema E (Seletiva IME-USP) [15min]
 	- Upsolving problema A (Seletiva IME-USP) [15min]
 - ### Comentários:
+  Nessa semana tentei refletir sobre os erros cometidos na última prova feita em time para não repeti-los novamente. Upsolvei alguns problemas da Seletiva IME-USP e fiz alguns contests individuais.
   
 #### Observações:
 
