@@ -51,7 +51,20 @@
 	- Upsolving problema A (Seletiva IME-USP) [15min]
 - ### Comentários:
   Nessa semana tentei refletir sobre os erros cometidos na última prova feita em time para não repeti-los novamente. Upsolvei alguns problemas da Seletiva IME-USP e fiz alguns contests individuais.
-  
+
+## Semana 4 (21/08 ~ 26/08) - __13h30min__ __16 Problemas__
+- Contest em Time
+  	- 2005-2005 NEERC Subregional contest: 4 problemas resolvidos [5h]
+	- GCPC 2010: 7 problemas resolvidos [5h]
+-Upsolving
+	- Upsolving problema G (Seletiva IME-USP) [2h30min]
+	- Upsolving problema B (Seletiva IME-USP) [15min]
+	- Upsolving problema K (Seletiva IME-USP) [15min]
+	- Upsolving problema F (Seletiva IME-USP) [15min]
+	- Upsolving problema H (Seletiva IME-USP) [15min]
+	
+- ### Comentários:
+	
 #### Observações:
 
   Todos os problemas e contests aqui postados podem ser encontrados nesse mesmo repositório nas pastas dos respectivos juízes online, ou no repositório [https://github.com/breno-helf/TAPA.EXE](https://github.com/breno-helf/TAPA.EXE) em 'contests', para os contests feitos em time.
