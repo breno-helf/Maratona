@@ -52,10 +52,13 @@
 - ### Comentários:
   Nessa semana tentei refletir sobre os erros cometidos na última prova feita em time para não repeti-los novamente. Upsolvei alguns problemas da Seletiva IME-USP e fiz alguns contests individuais.
 
-## Semana 4 (21/08 ~ 26/08) - __13h30min__ __16 Problemas__
+## Semana 4 (21/08 ~ 26/08) - __16h0min__ __20 Problemas__
+- Codeforces
+	- Virtual Contest AIM Tech 3: 4 problemas resolvidos [2h30min]
 - Contest em Time
   	- 2005-2005 NEERC Subregional contest: 4 problemas resolvidos [5h]
 	- GCPC 2010: 7 problemas resolvidos [5h]
+
 -Upsolving
 	- Upsolving problema G (Seletiva IME-USP) [2h30min]
 	- Upsolving problema B (Seletiva IME-USP) [15min]
