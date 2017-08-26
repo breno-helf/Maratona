@@ -1,7 +1,7 @@
 	# Relatório de MAC0214 - Problemas, contests e comentários
 
-## **Total de horas atual:** **47h0min** 
-## **Total de problemas atual:** **67**
+## **Total de horas atual:** **64h0min** 
+## **Total de problemas atual:** **88**
 
 ## Semana 1 (31/07 ~ 05/08) - __15h0min__ __25 Problemas__
 - Codeforces
@@ -52,7 +52,7 @@
 - ### Comentários:
   Nessa semana tentei refletir sobre os erros cometidos na última prova feita em time para não repeti-los novamente. Upsolvei alguns problemas da Seletiva IME-USP e fiz alguns contests individuais.
 
-## Semana 4 (21/08 ~ 26/08) - __16h0min__ __20 Problemas__
+## Semana 4 (21/08 ~ 26/08) - __17h0min__ __21 Problemas__
 - Codeforces
 	- Virtual Contest AIM Tech 3: 4 problemas resolvidos [2h30min]
 - Contest em Time
@@ -65,9 +65,11 @@
 	- Upsolving problema K (Seletiva IME-USP) [15min]
 	- Upsolving problema F (Seletiva IME-USP) [15min]
 	- Upsolving problema H (Seletiva IME-USP) [15min]
-	
+	- Upsolving problema K (GCPC 2010) [1h]	
 - ### Comentários:
-	
+  Essa semana me dediquei bastante ao upsolving e discussão de estratégias em time. Resolver os problemas que não consegui durante os contests, e entender por que não consegui foi muito produtivo.
+
+
 #### Observações:
 
   Todos os problemas e contests aqui postados podem ser encontrados nesse mesmo repositório nas pastas dos respectivos juízes online, ou no repositório [https://github.com/breno-helf/TAPA.EXE](https://github.com/breno-helf/TAPA.EXE) em 'contests', para os contests feitos em time.
