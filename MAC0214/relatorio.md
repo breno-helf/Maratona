@@ -59,7 +59,7 @@
   	- 2005-2005 NEERC Subregional contest: 4 problemas resolvidos [5h]
 	- GCPC 2010: 7 problemas resolvidos [5h]
 
--Upsolving
+- Upsolving
 	- Upsolving problema G (Seletiva IME-USP) [2h30min]
 	- Upsolving problema B (Seletiva IME-USP) [15min]
 	- Upsolving problema K (Seletiva IME-USP) [15min]
