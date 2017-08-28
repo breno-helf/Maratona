@@ -69,6 +69,12 @@
 - ### Comentários:
   Essa semana me dediquei bastante ao upsolving e discussão de estratégias em time. Resolver os problemas que não consegui durante os contests, e entender por que não consegui foi muito produtivo.
 
+## Semana 5 (28/08 ~ 02/09) - __5h0min__ __10 Problemas__
+- Contest em Time
+  	- GCPC 2015 + POI 10-T3: 10 problemas resolvidos [5h]
+- ### Comentários:
+
+
 
 #### Observações:
 
