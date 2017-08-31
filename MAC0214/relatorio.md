@@ -69,10 +69,13 @@
 - ### Comentários:
   Essa semana me dediquei bastante ao upsolving e discussão de estratégias em time. Resolver os problemas que não consegui durante os contests, e entender por que não consegui foi muito produtivo.
 
-## Semana 5 (28/08 ~ 02/09) - __5h30min__ __11 Problemas__
+## Semana 5 (28/08 ~ 02/09) - __17h30min__ __27 Problemas__
+- Contest
+	- Contest #430: 2 problemas resolvidos [2h]
 - Contest em Time
   	- GCPC 2015 + POI 10-T3: 10 problemas resolvidos [5h]
-
+	- ECPC 2013: 6 problemas resolvidos [5h]
+	- NEERC Northern Subregional Contest 2015-2016: 8 problemas resolvidos [5h]
 - Upsolving
 	- Problema J (GCPC 2015) [30min]
 - ### Comentários:
