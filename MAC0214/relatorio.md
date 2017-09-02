@@ -1,7 +1,7 @@
 	# Relatório de MAC0214 - Problemas, contests e comentários
 
-## **Total de horas atual:** **64h0min** 
-## **Total de problemas atual:** **88**
+## **Total de horas atual:** **83h30min** 
+## **Total de problemas atual:** **117**
 
 ## Semana 1 (31/07 ~ 05/08) - __15h0min__ __25 Problemas__
 - Codeforces
@@ -69,9 +69,10 @@
 - ### Comentários:
   Essa semana me dediquei bastante ao upsolving e discussão de estratégias em time. Resolver os problemas que não consegui durante os contests, e entender por que não consegui foi muito produtivo.
 
-## Semana 5 (28/08 ~ 02/09) - __17h30min__ __27 Problemas__
-- Contest
+## Semana 5 (28/08 ~ 02/09) - __19h30min__ __29 Problemas__
+- Codeforces
 	- Contest #430: 2 problemas resolvidos [2h]
+	- Contest #431: 3 problemas resolvidos [2h]
 - Contest em Time
   	- GCPC 2015 + POI 10-T3: 10 problemas resolvidos [5h]
 	- ECPC 2013: 6 problemas resolvidos [5h]
@@ -79,7 +80,11 @@
 - Upsolving
 	- Problema J (GCPC 2015) [30min]
 - ### Comentários:
+  Essa semana me dediquei bastante as simulações em time e a contests no codeforces, achei produtivo pois conseguimos testar as estratégias que serão utilizadas no dia da prova oficial da subregional.
 
+## Semana 6 (04/08 ~ 09/09) - __0h0min__ __0 Problemas__
+
+- ### Comentários:
 
 
 #### Observações:
