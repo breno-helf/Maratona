@@ -82,7 +82,15 @@
 - ### Comentários:
   Essa semana me dediquei bastante as simulações em time e a contests no codeforces, achei produtivo pois conseguimos testar as estratégias que serão utilizadas no dia da prova oficial da subregional.
 
-## Semana 6 (04/08 ~ 09/09) - __0h0min__ __0 Problemas__
+## Semana 6 (04/08 ~ 09/09) - __8h30min__ __14 Problemas__
+- Upsolving
+	- Problema D (Codeforces #431) [30min]
+	- Problema H (Subregional 2012) [30min]
+- Codeforces
+	- Contest #432: 3 problemas resolvidos [2h30min]
+
+- Contest em time
+  	- Subregional Brasileira 2012: 9 problemas resolvidos [5h]
 
 - ### Comentários:
 
