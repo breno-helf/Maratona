@@ -82,16 +82,19 @@
 - ### Comentários:
   Essa semana me dediquei bastante as simulações em time e a contests no codeforces, achei produtivo pois conseguimos testar as estratégias que serão utilizadas no dia da prova oficial da subregional.
 
-## Semana 6 (04/08 ~ 09/09) - __8h30min__ __14 Problemas__
+## Semana 6 (04/08 ~ 09/09) - __18h0min__ __32 Problemas__
 - Upsolving
 	- Problema D (Codeforces #431) [30min]
 	- Problema H (Subregional 2012) [30min]
+	- Problema K (Syrian 2015) [30min]
+- CSAcademy
+	- Round #47: 4 problemas resolvidos [2h] 
 - Codeforces
 	- Contest #432: 3 problemas resolvidos [2h30min]
-
+	- Contest #433: 3 problemas resolvidos [2h]
 - Contest em time
   	- Subregional Brasileira 2012: 9 problemas resolvidos [5h]
-
+	- 2015 Syrian Contest: 10 problemas resolvidos [5h] 
 - ### Comentários:
 
 
