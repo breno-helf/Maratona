@@ -1,7 +1,7 @@
 	# Relatório de MAC0214 - Problemas, contests e comentários
 
-## **Total de horas atual:** **83h30min** 
-## **Total de problemas atual:** **117**
+## **Total de horas atual:** **106h30min** 
+## **Total de problemas atual:** **160**
 
 ## Semana 1 (31/07 ~ 05/08) - __15h0min__ __25 Problemas__
 - Codeforces
@@ -82,7 +82,7 @@
 - ### Comentários:
   Essa semana me dediquei bastante as simulações em time e a contests no codeforces, achei produtivo pois conseguimos testar as estratégias que serão utilizadas no dia da prova oficial da subregional.
 
-## Semana 6 (04/08 ~ 09/09) - __18h0min__ __32 Problemas__
+## Semana 6 (04/08 ~ 09/09) - __23h0min__ __43 Problemas__
 - Upsolving
 	- Problema D (Codeforces #431) [30min]
 	- Problema H (Subregional 2012) [30min]
@@ -95,9 +95,10 @@
 - Contest em time
   	- Subregional Brasileira 2012: 9 problemas resolvidos [5h]
 	- 2015 Syrian Contest: 10 problemas resolvidos [5h] 
+	- Subregional Brasileira 2017: 11 problemas resolvidos [5h]
 - ### Comentários:
-
-
+      Apesar de ter conseguido meus objetivos no projeto (treinar 100h e resolver 100 problemas), acabei não não conseguindo me classificar para fase nacional da Maratona de programação. Conseguimos a vigésima colocação entre 837 times do Brasil, sendo o terceiro time da sede. Apesar de tudo acho que o treino foi muito provetioso e será muito útil em futuras competições!
+      
 #### Observações:
 
   Todos os problemas e contests aqui postados podem ser encontrados nesse mesmo repositório nas pastas dos respectivos juízes online, ou no repositório [https://github.com/breno-helf/TAPA.EXE](https://github.com/breno-helf/TAPA.EXE) em 'contests', para os contests feitos em time.
