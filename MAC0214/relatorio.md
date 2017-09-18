@@ -98,7 +98,11 @@
 	- Subregional Brasileira 2017: 11 problemas resolvidos [5h]
 - ### Comentários:
       Apesar de ter conseguido meus objetivos no projeto (treinar 100h e resolver 100 problemas), acabei não não conseguindo me classificar para fase nacional da Maratona de programação. Conseguimos a vigésima colocação entre 837 times do Brasil, sendo o terceiro time da sede. Apesar de tudo acho que o treino foi muito provetioso e será muito útil em futuras competições!
-      
+
+## Horas adicionais
+   - PSUT 2016 contest: 9 problemas resolvidos, 2 upsolving [6h]
+   - Codeforces Technocup: 4 problemas resolvidos [2h]
+
 #### Observações:
 
   Todos os problemas e contests aqui postados podem ser encontrados nesse mesmo repositório nas pastas dos respectivos juízes online, ou no repositório [https://github.com/breno-helf/TAPA.EXE](https://github.com/breno-helf/TAPA.EXE) em 'contests', para os contests feitos em time.
