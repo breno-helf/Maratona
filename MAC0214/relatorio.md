@@ -102,7 +102,8 @@
 ## Horas adicionais
    - PSUT 2016 contest: 9 problemas resolvidos, 2 upsolving [6h]
    - Codeforces Technocup: 4 problemas resolvidos [2h]
-
+   - Codeforces Manthan: 1 problema resolvido [2h30min]
+   - Codeforces #439: 2 problemas resolvidos [2h]
 #### Observações:
 
   Todos os problemas e contests aqui postados podem ser encontrados nesse mesmo repositório nas pastas dos respectivos juízes online, ou no repositório [https://github.com/breno-helf/TAPA.EXE](https://github.com/breno-helf/TAPA.EXE) em 'contests', para os contests feitos em time.
