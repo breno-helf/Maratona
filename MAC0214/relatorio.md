@@ -104,6 +104,10 @@
    - Codeforces Technocup: 4 problemas resolvidos [2h]
    - Codeforces Manthan: 1 problema resolvido [2h30min]
    - Codeforces #439: 2 problemas resolvidos [2h]
+   - CSAcademy Round #53: 3 problemas resolvidos [2h]
+   - Codeforces #442: 4 problemas resolvidos [2h]
+   - CSAcademy Round #54: 5 problemas resolvidos [2h20min]
+   
 #### Observações:
 
   Todos os problemas e contests aqui postados podem ser encontrados nesse mesmo repositório nas pastas dos respectivos juízes online, ou no repositório [https://github.com/breno-helf/TAPA.EXE](https://github.com/breno-helf/TAPA.EXE) em 'contests', para os contests feitos em time.
