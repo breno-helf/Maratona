@@ -107,6 +107,7 @@
    - CSAcademy Round #53: 3 problemas resolvidos [2h]
    - Codeforces #442: 4 problemas resolvidos [2h]
    - CSAcademy Round #54: 5 problemas resolvidos [2h20min]
+   - Codeforces #443: 3 problemas resolvidos [2h]
    
 #### Observações:
 
