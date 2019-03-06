@@ -9,3 +9,5 @@
  '(tool-bar-mode nil))
 (set-frame-parameter (selected-frame) 'alpha '(85 85))
 (add-to-list 'default-frame-alist '(alpha 85 85))
+(global-set-key (kbd "M-<up>") 'backward-paragraph) ; M-{
+(global-set-key (kbd "M-<down>") 'forward-paragraph) ; M-}
