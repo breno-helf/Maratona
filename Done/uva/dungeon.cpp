@@ -34,7 +34,8 @@ int bfs(int x, int y, int z){
 				debug("Essa posicao eh valida =D\n");
 				if(m[f+dx[i]][g+dy[i]][h+dz[i]]==0 && marc[f+dx[i]][g+dy[i]][h+dz[i]]==0){
 					debug(" Foi inserida na fila\n");
-					dist[f+dx[i]][g+dy[i]][h+dz[i]]=dist[f][g][h]+1;
+					dist[f + dx[i]][g + dy[i]][h + dz[i]] =
+                  dist[f][g][h] + 1;
 					fila[fim][0]=f+dx[i];
 					fila[fim][1]=g+dy[i];
 					fila[fim++][2]=h+dz[i];
